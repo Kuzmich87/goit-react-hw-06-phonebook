@@ -1,6 +1,12 @@
 import styled from 'styled-components';
-
+export const CotainerHeader = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+`
 export const Title = styled.h1`
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 900;
@@ -8,10 +14,6 @@ export const Title = styled.h1`
   color: var(--main-text-color);
   padding-top: 20px;
   padding-bottom: 20px;
-`;
-
-export const TitleColor = styled.span`
-  color: var(--accent-text-color);
 `;
 
 export const Button = styled.button`

@@ -13,6 +13,8 @@ export const ContainerWrapper = styled.div`
 `;
 
 export const Title = styled.h2`
+  display: flex;
+  justify-content: center;
   font-size: 26px;
   text-transform: uppercase;
   font-weight: 900;

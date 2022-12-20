@@ -47,6 +47,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   background-color: var(--second-bg-color);

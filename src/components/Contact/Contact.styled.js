@@ -9,7 +9,7 @@ export const Icon = styled.span`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--accent-bg-color);
+  background-color: var(--accent-text-color);
   color: var(--second-text-color);
   margin-right: 5px;
   padding: 15px;

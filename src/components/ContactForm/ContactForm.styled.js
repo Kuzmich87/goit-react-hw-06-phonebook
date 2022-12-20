@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Form = styled.div`
+display: flex;
+flex-direction: column;
+
+`
 export const Label = styled.label`
   display: flex;
   flex-direction: column;
@@ -34,6 +39,7 @@ export const Button = styled.button`
   justify-content: center;
   width: 200px;
   height: 40px;
+  margin-left:38px;
   background-color: var(--accent-bg-color);
   color: var(--second-text-color);
   font-family: inherit;
@@ -46,5 +52,6 @@ export const Button = styled.button`
   }
   @media screen and (min-width: 768px) {
     width: 300px;
+    margin-left:145px;
   }
 `;
